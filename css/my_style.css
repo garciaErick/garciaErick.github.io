@@ -1,0 +1,14 @@
+::selection {
+    background-color: #78909c;
+}
+::-moz-selection {
+    background-color: #78909c;
+}
+
+html *{
+    color: #FFFFFF;
+}
+
+#projects i{
+    color: #000000;
+}
