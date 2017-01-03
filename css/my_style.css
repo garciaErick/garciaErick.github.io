@@ -1,8 +1,8 @@
 ::selection {
-    background-color: #78909c;
+    background-color: #90a4ae;
 }
 ::-moz-selection {
-    background-color: #78909c;
+    background-color: #90a4ae;
 }
 
 html *{
@@ -11,4 +11,60 @@ html *{
 
 #projects i{
     color: #000000;
+}
+
+.blinking-cursor {
+    /*font-weight: 100;*/
+    /*font-size: 30px;*/
+    color: #FFFFFF;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: white;
+    }
+}
+
+@-moz-keyframes blink {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: white;
+    }
+}
+
+@-webkit-keyframes "blink" {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: white;
+    }
+}
+
+@-ms-keyframes "blink" {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: white;
+    }
+}
+
+@-o-keyframes "blink" {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: white;
+    }
 }
