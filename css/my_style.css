@@ -28,7 +28,12 @@ html *{
     animation: 1s blink step-end infinite;
 }
 
-
+.card-reveal p{
+    color: black;
+}
+.card-title {
+    color: #268bd2;
+}
 
 @keyframes "blink" {
     from, to {
