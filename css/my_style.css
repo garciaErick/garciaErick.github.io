@@ -35,6 +35,10 @@ html *{
     color: #268bd2;
 }
 
+.boxMinHeight {
+	min-height:400px;
+}
+
 @keyframes "blink" {
     from, to {
         color: transparent;
