@@ -1,15 +1,16 @@
 ::selection {
     background-color: #90a4ae;
 }
+
 ::-moz-selection {
     background-color: #90a4ae;
 }
 
-html *{
+html * {
     color: #FFFFFF;
 }
 
-#projects i{
+#projects i {
     color: #000000;
 }
 
@@ -28,15 +29,16 @@ html *{
     animation: 1s blink step-end infinite;
 }
 
-.card-reveal p{
+.card-reveal p {
     color: black;
 }
+
 .card-title {
     color: #268bd2;
 }
 
 .boxMinHeight {
-	min-height:400px;
+    min-height: 400px;
 }
 
 @keyframes "blink" {
@@ -82,4 +84,10 @@ html *{
     50% {
         color: #5f8700;
     }
+
+.solarizedBackground {
+    background-color: #263238;
+    color: #FFFFFF;
+}
+
 }
