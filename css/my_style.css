@@ -1,3 +1,9 @@
+@import url(https://cdn.rawgit.com/tonsky/FiraCode/1.205/distr/fira_code.css);
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Fira Code
+}
+
 ::selection {
     background-color: #90a4ae;
 }
@@ -85,9 +91,9 @@ html * {
         color: #5f8700;
     }
 
-.solarizedBackground {
-    background-color: #263238;
-    color: #FFFFFF;
-}
+    .solarizedBackground {
+        background-color: #263238;
+        color: #FFFFFF;
+    }
 
 }
