@@ -1,0 +1,7 @@
+accent -> Discord-purple: #7289da
+background -> Material: #37474f 
+background dialogs -> Material: #263238 
+background -> Material Palenight: #37474f 
+background dialogs -> Material Palenight: #263238 
+font accent -> #fff
+font normal -> Discord: hsla(0,0%,100%,.6)
