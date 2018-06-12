@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
@@ -13,471 +13,773 @@
 	      content="Hello my name is Erick and I am a Graduate with a Ms in Software Engineering. Born and raised in Ciudad Juárez, Chihuahua, Mexico. "/>
 	<title>Welcome to my realm!</title>
 
-	<!-- CSS  -->
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link href="min/plugin-min.css" type="text/css" rel="stylesheet">
-	<link href="min/custom-min.css" type="text/css" rel="stylesheet">
-	<link href="css/my_style.css" type="text/css" rel="stylesheet">
+    <link rel="icon" href="images/site/fav-icon.png">
+
+    <!--APPLE TOUCH ICON-->
+    <link rel="apple-touch-icon" href="images/site/apple-touch-icon.png">
+
+
+    <!-- GOOGLE FONT -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+
+
+    <!-- MATERIAL ICON FONT -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+
+    <!-- ANIMATION -->
+    <link href="stylesheets/vendors/animate.min.css" rel="stylesheet">
+
+    <!-- MAGNIFICENT POPUP -->
+    <link href="stylesheets/vendors/magnific-popup.css" rel="stylesheet">
+
+    <!-- SWIPER -->
+    <link href="stylesheets/vendors/swiper.min.css" rel="stylesheet">
+
+
+    <!-- MATERIALIZE -->
+    <link href="stylesheets/vendors/materialize.css" rel="stylesheet">
+    <!-- BOOTSTRAP -->
+    <link href="stylesheets/vendors/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CUSTOM STYLE -->
+    <link href="stylesheets/style.css" id="switch_style" rel="stylesheet">
+	
+
 </head>
-<body id="top" class="scrollspy blue-grey darken-3">
+<body>
 
-<!-- Pre Loader -->
-<div id="loader-wrapper">
-	<div id="loader"></div>
 
-	<div class="loader-section section-left"></div>
-	<div class="loader-section section-right"></div>
-
+<!--==========================================
+                  PRE-LOADER
+===========================================-->
+<div id="loading">
+    <div id="loading-center">
+        <div id="loading-center-absolute">
+            <div class="box-holder animated bounceInDown">
+                <span class="load-box"><span class="box-inner"></span></span>
+            </div>
+            <!-- NAME & STATUS -->
+            <div class="text-holder text-center">
+                <h2>ERICK GARCIA</h2>
+                <h6>Software Architect | UX Designer</h6>
+            </div>
+        </div>
+    </div>
 </div>
 
-<!--Navigation-->
-<div class="navbar-fixed">
-	<nav id="nav_f" class="blue-grey darken-4" role="navigation">
-		<div class="container">
-			<div class="nav-wrapper">
-				<a href="#" id="logo-container" class="brand-logo">
-					<img src="img/logo_white.png" style="height: 64px; padding: 10px 10px 15px;">
-				</a>
-				<ul class="right hide-on-med-and-down">
-					<li><a href="#projects">Projects</a></li>
-					<li><a href="#footer">Contact</a></li>
-					<li><a href="https://garciaerick.github.io/online-cv/">CV</a></li>
-					<li><a href="español">Spanish</a></li>
-				</ul>
-				<ul id="nav-mobile" class="solarizedBackground side-nav ">
-					<li><a href="#hobbies" class="white-text">Hobbies</a></li>
-					<li><a href="#projects" class="white-text">Projects</a></li>
-					<li><a href="#footer" class="white-text">Contact</a></li>
-					<li><a href="https://garciaerick.github.io/online-cv/" class="white-text">CV</a></li>
-					<li><a href="español" class="white-text">Spanish</a></li>
-				</ul>
-				<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-			</div>
-		</div>
-	</nav>
+<!--==========================================
+                    HEADER
+===========================================-->
+<header id="home">
+    <nav id="theMenu" class="menu">
+
+        <!--MENU-->
+        <div id="menu-options" class="menu-wrap">
+
+            <!--PERSONAL LOGO-->
+            <div class="logo-flat">
+                <img alt="personal-logo" class="img-responsive" src="../img/logo_white.png">
+            </div>
+            <br>
+
+            <!--OPTIONS-->
+            <a href="#home"><i class="title-icon fa fa-user"></i>Home</a>
+            <a href="#about"><i class="title-icon fa fa-dashboard"></i>About</a>
+            <a href="#education"><i class="title-icon fa fa-graduation-cap"></i>Education</a>
+            <a href="#skills"><i class="title-icon fa fa-sliders"></i>Skills</a>
+            <a href="#experience"><i class="title-icon fa fa-suitcase"></i>Experience</a>
+            <a href="#portfolios"><i class="title-icon fa fa-archive"></i>Portfolios</a>
+            <a href="#interest"><i class="title-icon fa fa-heart"></i>Interest</a>
+            <a href="#testimonials"><i class="title-icon fa fa-users"></i>Testimonials</a>
+            <a href="#pricing-table"><i class="title-icon fa fa-money"></i>Pricing</a>
+            <a href="#blog"><i class="title-icon fa fa-pencil-square"></i>Blog</a>
+            <a href="#contact"><i class="title-icon fa fa-envelope"></i>Contact</a>
+        </div>
+
+        <!-- MENU BUTTON -->
+        <div id="menuToggle">
+            <div class="toggle-normal">
+                <i class="material-icons top-bar">remove</i>
+                <i class="material-icons middle-bar">remove</i>
+                <i class="material-icons bottom-bar">remove</i>
+            </div>
+        </div>
+    </nav>
+
+    <!--HEADER BACKGROUND-->
+    <div class="header-background section"></div>
+
+</header>
+
+
+<!--==========================================
+                   V-CARD
+===========================================-->
+<div id="v-card-holder" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+
+                <!-- V-CARD -->
+                <div id="v-card" class="card">
+
+                    <!-- PROFILE PICTURE -->
+                    <div id="profile" class="right">
+                        <img alt="profile-image" class="img-responsive" src="img/grad_pastel.jpg">
+                        <div class="slant"></div>
+
+                        <!--EMPTY PLUS BUTTON-->
+                        <!--<div class="btn-floating btn-large add-btn"><i class="material-icons">add</i></div>-->
+
+                        <!--VIDEO PLAY BUTTON-->
+                        <div id="button-holder" class="btn-holder">
+                            <div id="play-btn" class="btn-floating btn-large btn-play">
+                                <i id="icon-play" class="material-icons">play_arrow</i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--VIDEO CLOSE BUTTON-->
+                    <div id="close-btn" class="btn-floating icon-close">
+                        <i class="fa fa-close"></i>
+                    </div>
+
+                    <div class="card-content">
+
+                        <!-- NAME & STATUS -->
+                        <div class="info-headings">
+                            <h4 class="text-uppercase left">ERICK GARCIA</h4>
+                            <h6 class="text-capitalize left">Software Architect | UX Designer</h6>
+                        </div>
+
+                        <!-- CONTACT INFO -->
+                        <div class="infos">
+                            <ul class="profile-list">
+                                <li class="clearfix">
+                                    <span class="title"><i class="material-icons">email</i></span>
+                                    <span class="content">me@erick-garcia.com</span>
+                                </li>
+                                <li class="clearfix">
+                                    <span class="title"><i class="material-icons">language</i></span>
+                                    <span class="content">erick-garcia.com</span>
+                                </li>
+                                <li class="clearfix">
+                                    <span class="title"><i class="material-icons">phone</i></span>
+                                    <span class="content">+52 1 656 375 6477</span>
+                                </li>
+                                <li class="clearfix">
+                                    <span class="title"><i class="material-icons">place</i></span>
+                                    <span class="content">El Paso, TX</span>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                        <!--LINKS-->
+                        <div class="links">
+                            <!-- FACEBOOK-->
+                            <a href="https://github.com/garciaErick/" class="social"><i
+                                class="fab fa-github"></i></a>
+                            <a href="https://www.facebook.com/erickcubanoide" id="first_one"
+                               class="social"><i
+                                    class="fab fa-facebook fa-3x"></i></a>
+                            <!-- TWITTER-->
+                            <!-- <a href="http://twitter.com/blaksephirot" class="social"><i
+                                    class="fab fa-twitter"></i></a> -->
+                            <!-- GOOGLE+-->
+                            <a href="https://www.youtube.com/user/blaksephirot" class="social ">
+                                <i class="fab fa-youtube"></i></a>
+                            <!-- LINKEDIN-->
+                            <a href="linkedin.com/in/garciaerickcs/" class="social"><i
+                                    class="fab fa-linkedin"></i></a>
+                            <!-- RSS-->
+                            <a href="https://steamcommunity.com/id/blaksephirot" class="social"><i
+                                    class="fab fa-steam"></i></a>
+                            <a href="http://instagram.com/blaksephirot/" class="social"><i
+                                class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <iframe id="html-video" class="video" poster="images/poster/poster.jpg" src="https://www.youtube.com/embed/PCp2iXA1uLE" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
-<!--Hero-->
-<div class="section no-pad-bot " id="index-banner">
-	<div class="container" id="start">
-		<div class="row">
-			<div class="col s12 center" style="padding-top: 10px;">
-				<img class="responsive-img circle show-on-medium hide-on-small-and-down" src="./img/grad_pastel.jpg"
-				     style="width: 50%;">
-				<img class="responsive-img circle show-on-small hide-on-med-and-up" src="./img/grad_pastel.jpg"
-				     style="width: 80%;">
-			</div>
-			<div class="col s12 center" style="padding-top: 35px;">
-				<h1 class=" center header cd-headline letters type" style="font-weight: 100;">
-					<span style="color: #5f8700">></span><span class="blinking-cursor">_</span>
-					<span class="cd-words-wrapper waiting">
-                        <b class="is-visible">Developer</b>
-                        <b>UX Designer</b>
-                        <b>Martial Artist</b>
-                        <b>Musician</b>
-                        <b>Gamer</b>
-                    </span>
-				</h1>
-			</div>
-		</div>
-	</div>
+<!--==========================================
+                   ABOUT
+===========================================-->
+<div id="about" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- DETAILS -->
+                <div id="about-card" class="card">
+                    <div class="card-content">
+                        <h2 class="center"> Hello my name is Erick and I am a Graduate with a <br>
+                            <span class="span_h2 indigo-text text-accent-1"> Ms in Software Engineering</span>. Born and raised in <br>
+                            <span class="span_h2" style="color:#69f0ae ;">Ciudad Juárez,</span>
+                            Chihuahua,
+                            <span class="span_h2 highlight" style="color: #ff5252  ;"> Mexico. </span>
+                        </h2>
+                    </div>
+
+                    <!-- BUTTONS -->
+                    <div id="about-btn" class="card-action">
+                        <div class="about-btn">
+                            <!-- DOWNLOAD CV BUTTON -->
+                            <a href="http://erick-garcia.com/online-cv/pdf-version/" class="btn waves-effect">PDF CV</a>
+                            <!-- CONTACT BUTTON -->
+                            <a href="http://erick-garcia.com/online-cv/" class="btn waves-effect">Online CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
-<!--Intro and service-->
-<div class="section scrollspy" id="hobbies">
-	<div class="container">
-		<div class="row">
-			<div class="col s12">
-				<h4 class="center header text_h2"> Hello my name is Erick and I am a Graduate with a <br>
-					<span class="span_h2 indigo-text text-accent-1"> Ms in Software Engineering</span>. Born and raised in <br>
-					<span class="span_h2" style="color:#2e7d32;">Ciudad Juárez,</span>
-					Chihuahua,
-					<span class="span_h2 highlight" style="color: #dc322f;"> Mexico. </span> <br><br><br>
-					Coffee ☕ makes my mornings and I spend my time in...
-				</h4>
-			</div>
+<!--==========================================
+                   INTEREST
+===========================================-->
+<section id="interest" class="section">
+    <div class="container">
+        <!-- SECTION TITLE -->
+        <div class="section-title">
+            <h4 class="text-uppercase text-center"><img src="images/icons/heart.png" alt="demo">Interests</h4>
+        </div>
 
-			<div class="col s12 m4 l4">
-				<div class="center promo promo-example">
-					<i class="fa fa-keyboard-o" aria-hidden="true"></i>
-					<h5 class="promo-caption">Software Development</h5>
-					<p class="light center">
-						Earning a Bachelors in Computer Science I have spent my fair share of time programing.
-						Vim is my text editor of choice all the way, but sometimes I go out of my comfort zone...
-					</p>
-				</div>
-			</div>
-			<div class="col s12 m4 l4">
-				<div class="center promo promo-example">
-					<i class="material-icons" style="color: #5f5faf;">library_music</i>
-					<h5 class="promo-caption">Music</h5>
-					<p class="light center">
-						Music is one of my greatest passions, I studied formally classical guitar for 7 years.
-						Have a varied taste in a vast 70 GB of music, but most of those tracks are Soundtracks.
-					</p>
-				</div>
-			</div>
-			<div class="col s12 m4 l4">
-				<div class="center promo promo-example">
-					<i class="fa fa-gamepad" aria-hidden="true" style="color: #dc322f;"></i>
-					<h5 class="promo-caption">Entertainment</h5>
-					<p class="light center">
-						In my free time I like to spend my late nights either gaming, (CSGO, Rocket League, etc.)
-						and watching TV series or anime. I'm a green belt in Limalama (polynessian martial arts), and
-						currently learning Japanese.
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
+        <div id="interest-card" class="card">
+            <!--INTEREST TEXT-->
+            <div class="card-content">
+                <h2 class="center"> 
+                    Coffee ☕ makes my mornings and I spend my time in... 
+                </h2>
+            </div>
+
+            <!--INTEREST ICONS-->
+            <div class="row no-gutters">
+
+                <!--INTEREST ICON ONE-->
+                <div class="col-md-2 col-sm-4 col-xs-6  box text-center">
+                    <div class="interest-icon">
+                        <i class="fa fa-music"></i>
+                        <span>Music</span>
+                    </div>
+                </div>
+                <!--INTEREST ICON TWO-->
+                <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
+                    <div class="interest-icon-even">
+                        <i class="fa fa-gamepad"></i>
+                        <span>PC Gaming</span>
+                    </div>
+                </div>
+                <!--INTEREST ICON THREE-->
+                <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
+                    <div class="interest-icon">
+                        <i class="fa fa-keyboard"></i>
+                        <span>Programming</span>
+                    </div>
+                </div>
+                <!--INTEREST ICON FOUR-->
+                <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
+                    <div class="interest-icon-even">
+                        <i class="fa fa-male"></i>
+                        <span>Martial Arts</span>
+                    </div>
+                </div>
+                <!--INTEREST ICON FIVE-->
+                <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
+                    <div class="interest-icon">
+                        <i class="fa fa-plane"></i>
+                        <span>Traveling</span>
+                    </div>
+                </div>
+                <!--INTEREST ICON SIX-->
+                <div class="col-md-2 col-sm-4 col-xs-6 box text-center">
+                    <div class="interest-icon-even">
+                        <i class="fa fa-heart"></i>
+                        <span>Community Service</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--==========================================
+                   EDUCATION
+===========================================-->
+<section id="education" class="section">
+    <div class="container">
+        <!-- SECTION TITLE -->
+        <div class="section-title">
+            <h4 class="text-uppercase text-center"><img src="images/icons/book.png" alt="demo">Education</h4>
+        </div>
+
+        <div id="timeline-education">
+
+            <!-- SECOND TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><h6>H</h6></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">High School</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>Instituto Mexico</small>
+                            </h6>
+                            <h6>
+                                <small>2009 - 2012</small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                            Completed my high school degree from this institution earning the Valedictorian award
+                            of my generation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- THIRD TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><h6>C</h6></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">AA - Computer Science</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>El Paso Community College</small>
+                            </h6>
+                            <h6>
+                                <small>2012 - 2014</small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                            Started my college career on this institution, and adjusting to my first time studying 
+                            full time in the US. I earnt several scholarships and began my life as a computer scientist.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- FOURTH TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><h6>U</h6></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">BA - Computer Science</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>The University of Texas at El Paso</small>
+                            </h6>
+                            <h6>
+                                <small>2014 - 2016</small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                            First time on a larger institution, the change from a community college to a University was challenging.
+                            During my years as an undergraduate student I developed programing skills and research interests in the
+                            areas of Semantic Web, Ontologies, and UX Design. Additionally I did a summer internship at Stanford
+                            University researching in Computer Vision.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- FIFTH TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><i class="fa fa-graduation-cap"></i></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">MS - Software Engineering</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>The University of Texas at El Paso</small>
+                            </h6>
+                            <h6>
+                                <small>2016 - 2018</small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                            My MS was funded by the GEM Fellowship and Intel corporation; due to that I did two summer
+                            internships with Intel Corporation. My experience in the internships made me want to pursue
+                            a MS in Software Engineering because my interest in developing high quality code, with 
+                            SOLID practices in addition to creating a robust architecture for code infrastructure was 
+                            a skill I wanted to master.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--==========================================
+                   SKILLS
+===========================================-->
+<section id="skills" class="section">
+    <div class="container">
+        <!-- SECTION TITLE -->
+        <div class="section-title">
+            <h4 class="text-uppercase text-center"><img src="images/icons/mixer.png" alt="demo">Skills</h4>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div id="skills-card" class="card">
+                    <div class="card-content">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <div class="skills-title">
+                                    <h6 class="text-center">Programming Languages</h6>
+                                </div>
+                                <div class="skillbar" data-percent="90%">
+                                    <div class="skillbar-title"><span>Java & C#</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">90%</div>
+                                </div>
+                                <div class="skillbar" data-percent="68%">
+                                    <div class="skillbar-title"><span>Python</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">68%</div>
+                                </div>
+                                <div class="skillbar" data-percent="68%">
+                                    <div class="skillbar-title"><span>Bash</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">68%</div>
+                                </div>
+                                <div class="skillbar" data-percent="90%">
+                                    <div class="skillbar-title"><span>HTML & CSS</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">90%</div>
+                                </div>
+                                <div class="skillbar" data-percent="90%">
+                                    <div class="skillbar-title"><span>JQuery & Ajax</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">90%</div>
+                                </div>
+                                <div class="skillbar" data-percent="70%">
+                                    <div class="skillbar-title"><span>PHP</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">70%</div>
+                                </div>
+                                <div class="skillbar" data-percent="70%">
+                                    <div class="skillbar-title"><span>Angular</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">70%</div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <div class="skills-title">
+                                    <h6 class="text-center">Patterns/Methodologies</h6>
+                                </div>
+                                <div class="skillbar" data-percent="80%">
+                                    <div class="skillbar-title"><span>SOLID (Clean Code)</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">80%</div>
+                                </div>
+                                <div class="skillbar" data-percent="60%">
+                                    <div class="skillbar-title"><span>Agile Development & Scrum</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">60%</div>
+                                </div>
+                                <div class="skillbar" data-percent="70%">
+                                    <div class="skillbar-title"><span>Cyber Secure Systems</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">70%</div>
+                                </div>
+                                <div class="skillbar" data-percent="70%">
+                                    <div class="skillbar-title"><span>Model-View-Controller</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">70%</div>
+                                </div>
+                                <div class="skillbar" data-percent="70%">
+                                    <div class="skillbar-title"><span>Model-View-Viewmodel</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">70%</div>
+                                </div>
+                                <div class="skillbar" data-percent="70%">
+                                    <div class="skillbar-title"><span>User-First Design</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">70%</div>
+                                </div>
+                                <div class="skillbar" data-percent="70%">
+                                    <div class="skillbar-title"><span>Test-Driven Development</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">70%</div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <div class="skills-title">
+                                    <h6 class="text-center">Software/Environments</h6>
+                                </div>
+                                <div class="skillbar" data-percent="80%">
+                                    <div class="skillbar-title"><span>Unix Based Systems</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">80%</div>
+                                </div>
+                                <div class="skillbar" data-percent="80%">
+                                    <div class="skillbar-title"><span>IntelliJ Idea</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">80%</div>
+                                </div>
+                                <div class="skillbar" data-percent="80%">
+                                    <div class="skillbar-title"><span>Visual Studio </span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">80%</div>
+                                </div>
+                                <div class="skillbar" data-percent="80%">
+                                    <div class="skillbar-title"><span>Git</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">80%</div>
+                                </div>
+                                <div class="skillbar" data-percent="80%">
+                                    <div class="skillbar-title"><span>TFS</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">80%</div>
+                                </div>
+                                <div class="skillbar" data-percent="80%">
+                                    <div class="skillbar-title"><span>Vim</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">80%</div>
+                                </div>
+                                <div class="skillbar" data-percent="70%">
+                                    <div class="skillbar-title"><span>Adobe Suite</span></div>
+                                    <div class="skillbar-bar"></div>
+                                    <div class="skill-bar-percent">70%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--==========================================
+                   EXPERIENCE
+===========================================-->
+<section id="experience" class="section">
+    <div class="container">
+        <!-- SECTION TITLE -->
+        <div class="section-title">
+            <h4 class="text-uppercase text-center"><img src="images/icons/layers.png" alt="demo">Experience</h4>
+        </div>
+
+        <div id="timeline-experience">
+            <!-- FIRST TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><h6>T</h6></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">Tutor/Mentor for Students with Disabilities</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>RulerSoft</small>
+                            </h6>
+                            <h6>
+                                <small>Jan 2010 - Mar 2012</small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                            Working in private sessions with students with disabilites, enabling them to get the attention and 
+                            support they need to obtain their degree. This experience really aided me in learning how to teach
+                            to a wide variety of people and communicating my messages correctly.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECOND TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><h6>R</h6></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">High Parallel Computing Research Intern</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>Stanford University</small>
+                            </h6>
+                            <h6>
+                                <small>Summer 2015</small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                            Computer  vision  and  parallel  computing  research  under  Doctor  Patrick  
+                            Hanrahan,  consisting  of  embedding  a  real  time  computer  vision  payload  on  a  
+                            Solo  3DR  smart  drone
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- THIRD TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><h6>S</h6></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">Software Engineering Intern</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>Intel Corporation</small>
+                            </h6>
+                            <h6>
+                                <small>Summer 2017 & 2018</small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                            This was my first experience working with a software development team 
+                            and with a major company. This widened my perspective and I gained many 
+                            useful skills for a developer such as SOLID practices and SCRUM methodologies.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- THIRD TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><h6>S</h6></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">Undergraduate/Graduate Research Assistant</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>The University of Texas at El Paso</small>
+                            </h6>
+                            <h6>
+                                <small>2014 - 2018</small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                            This was my first Major Related job in which I continued to work
+                            during most of my career, I develoiped many skill that would later 
+                            become useful in the industry and in my education.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- THIRD TIMELINE -->
+            <div class="timeline-block">
+                <!-- DOT -->
+                <div class="timeline-dot"><h6>S</h6></div>
+                <!-- TIMELINE CONTENT -->
+                <div class="card timeline-content">
+                    <div class="card-content">
+                        <!-- TIMELINE TITLE -->
+                        <h6 class="timeline-title">Service Information Developer II</h6>
+                        <!-- TIMELINE TITLE INFO -->
+                        <div class="timeline-info">
+                            <h6>
+                                <small>DXC Technologies</small>
+                            </h6>
+                            <h6>
+                                <small>2018 - Current</small>
+                            </h6>
+                        </div>
+                        <!-- TIMELINE PARAGRAPH -->
+                        <p>
+                            I currently work here and I am continuing to learn about the 
+                            healthcare industry while I maintain and develop their portals.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+
+
+<!--==========================================
+                     SCROLL TO TOP
+===========================================-->
+<div id="scroll-top">
+    <div id="scrollup"><i class="fa fa-angle-up"></i></div>
 </div>
 
-<!--Work-->
-<div class="section scrollspy " id="projects">
-	<div class="container">
-		<h2 class="header text_b center indigo-text text-accent-1">I've participated in...</h2>
-		<div class="row">
-			<div class="col s12 m4 l4">
-				<div class="card">
-					<div class="card-image waves-effect waves-block waves-light">
-						<img class="activator" src="img/gem_fellow.PNG">
-					</div>
-					<div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">GEM Fellow 2016<i
-		                        class="mdi-navigation-more-vert right"></i></span>
-						<p><a href="http://www.gemfellowship.org/students/2016-gem-fellows/">Link</a></p>
-					</div>
-					<div class="card-reveal">
-                        <span class="card-title" style="color: #268bd2;">GEM Fellow 2016<i
-		                        class="mdi-navigation-close right"></i></span>
-						<p>
-							GEM is a network of leading corporations, government laboratories, top universities, and top
-							research institutions that enables qualified students from underrepresented communities to
-							pursue
-							graduate education in applied science and engineering.
-						</p>
-						<p>
-							I got awarded the GEM fellowship and through this partnership between GEM, the Universities
-							and Employers, I am getting my graduate degree by receiving sponsorship from UTEP and
-							Intel.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="col s12 m4 l4">
-				<div class="card">
-					<div class="card-image waves-effect waves-block waves-light">
-						<img class="activator responsive-img" src="img/ilink.PNG">
-					</div>
-					<div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">iLink Website<i
-		                        class="mdi-navigation-more-vert right"></i></span>
-						<p><a href="http://ilink.cybershare.utep.edu">Link</a></p>
-					</div>
-					<div class="card-reveal">
-                        <span class="card-title" style="color: #268bd2;">iLink Website<i
-		                        class="mdi-navigation-close right"></i></span>
-						<p>
-							We aim to improve the efficiency and effectiveness of the discovery, integration, processing
-							and interpretation of scientific data. Our current approaches link human and machine
-							knowledge
-							to address societally-relevant problems in the areas of biomedical informatics,
-							environmental
-							sciences, geosciences and climate change.
-						</p>
-						<p>
-							I am the designer and developer of this website.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="col s12 m4 l4" style="">
-				<div class="card">
-					<div class="card-image waves-effect waves-block waves-light">
-						<img class="activator" src="img/chopeke.jpg">
-					</div>
-					<div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Colectivo Chopeke<i
-		                        class="mdi-navigation-more-vert right"></i></span>
-						<p><a href=https://www.facebook.com/pg/colectivochopeke/>Link</a></p>
-					</div>
-					<div class="card-reveal">
-                        <span class="card-title" style="color: #268bd2;">Colectivo Chopeke<i
-		                        class="mdi-navigation-close right"></i></span>
-						<p>
-							Catholic youth with the love and charity of god, at the service of those who are
-							segregated. Constructing low-resource decent emerging housing causing high social/ambiental
-							impact.
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col s12 m4 l4">
-				<div class="card">
-					<div class="card-image waves-effect waves-block waves-light">
-						<img class="activator" src="img/cahsi_2015.jpg">
-					</div>
-					<div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">CAHSI 2015<i
-		                        class="mdi-navigation-more-vert right"></i></span>
-						<p><a href="http://cahsi.cs.utep.edu/">Link</a></p>
-					</div>
-					<div class="card-reveal">
-                        <span class="card-title" style="color: #268bd2;">CAHSI 2015<i
-		                        class="mdi-navigation-close right"></i></span>
-						<p>
-							I presented my research titled Semantic-annotating of Research Lab Activities for Data
-							Sharing (2015),
-							in Computing Alliance of Hispanic-Serving Institutions (CAHSI 2015) at Puerto Rico.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="col s12 m4 l4">
-				<div class="card">
-					<div class="card-image waves-effect waves-block waves-light">
-						<img class="activator" src="img/heenac_2016.jpg">
-					</div>
-					<div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">HENAAC 2016<i
-		                        class="mdi-navigation-more-vert right"></i></span>
-						<p><a href="http://www.greatmindsinstem.org/conference/conference-home">Link</a></p>
-					</div>
-					<div class="card-reveal">
-                        <span class="card-title" style="color: #268bd2;">HEENAC 2016<i
-		                        class="mdi-navigation-close right"></i></span>
-						<p>
-							I presented my research titled Data Integration for Digital Geofield Mapping (2016),
-							in Hispanic Engineer National Achievement Awards Corporation (HENAAC 2016) at Anaheim, CA.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="col s12 m4 l4">
-				<div class="card">
-					<div class="card-image waves-effect waves-block waves-light">
-						<img class="activator" src="img/pc.jpg">
-					</div>
-					<div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">My Battlestation<i
-		                        class="mdi-navigation-more-vert right"></i></span>
-						<p><a href="https://garciaerick.github.io/img/pc.jpg">Link</a></p>
-					</div>
-					<div class="card-reveal">
-                        <span class="card-title" style="color: #268bd2;">My Battlestation<i
-		                        class="mdi-navigation-close right"></i></span>
-						<p>
-							Here is where without a doubt I spend 90% of my time in. This is the complete work of
-							a couple of years of additions and upgrades. See more like this in
-							<a class="blue-text" href="http://reddit.com/r/battlestations">r/Battlestations</a>
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+<!--==========================================
+                      FOOTER
+===========================================-->
 
-<div class="section scrollspy ">
-	<div class="container">
-		<h2 class="header text_b center indigo-text text-accent-1">Research and Internships</h2>
-		<div class="row">
-			<div class="col s12 m3 ">
-				<div class="card card-avatar boxMinHeight">
-					<div class="waves-effect waves-block waves-light">
-						<img class="activator" src="img/intel.jpg">
-					</div>
-					<div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Intel<br/>
-                            <small><em><a class="red-text text-darken-1"
-                                          href="#">Software Engineering Intern</a></em></small></span>
-						<p>
-							<a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/egarcia87">
-								<i class="fa fa-linkedin-square"></i>
-							</a>
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="col s12 m3">
-				<div class="card card-avatar boxMinHeight">
-					<div class="waves-effect waves-block waves-light">
-						<img class="activator" src="img/stanford.jpg">
-					</div>
-					<div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Stanford<br/>
-                <small>
-	                <em>
-		                <a class="red-text text-darken-1" href="#">Computer Vision Research</a>
-	                </em>
-                </small>
-            </span>
-
-						<p>
-							<a class="blue-text text-lighten-2"
-							   href="resources/Real-time_Computer_Vision.pptx">
-								<i class="fa fa-file-powerpoint-o black-text" aria-hidden="true"></i>
-							</a>
-						</p>
-
-						<p>
-							<a class="blue-text text-lighten-2" href="https://www.facebook.com/joash.c.pereira">
-								<i class="fa fa-facebook-square"></i>
-							</a>
-							<a class="blue-text text-lighten-2" href="https://twitter.com/im_joash">
-								<i class="fa fa-twitter-square"></i>
-							</a>
-							<a class="blue-text text-lighten-2" href="https://plus.google.com/u/0/+JoashPereira">
-								<i class="fa fa-google-plus-square"></i>
-							</a>
-							<a class="blue-text text-lighten-2" href="https://www.linkedin.com/in/joashp">
-								<i class="fa fa-linkedin-square"></i>
-							</a>
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="col s12 m3">
-				<div class="card card-avatar boxMinHeight">
-					<div class="waves-effect waves-block waves-light">
-						<img class="activator responsive-img" src="img/paper1.PNG">
-					</div>
-					<div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">
-                            UTEP<br/>
-                            <small><em><a class="red-text text-darken-1" href="#">Semantic-annotating of Research Lab Activities for Data Sharing (2015)</a></em></small></span>
-						<p>
-							<a class="blue-text text-lighten-2"
-							   href="resources/Semantic-based%20data%20integration%20and%20exchange%20for%20a%20research%20group_poster.pdf">
-								<i class="fa fa-file-pdf-o black-text" aria-hidden="true"></i>
-							</a>
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="col s12 m3">
-				<div class="card card-avatar boxMinHeight">
-					<div class="waves-effect waves-block waves-light">
-						<img class="activator" src="img/paper1.PNG">
-					</div>
-					<div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">UTEP<br/>
-                            <small><em><a class="red-text text-darken-1" href="#">Data Integration for Digital Geofield Mapping (2016)</a></em></small></span>
-						<p>
-							<a class="blue-text text-lighten-2"
-							   href="resources/Data%20Integration%20for%20Digital%20GeoField%20Mapping%20-%20Erick%20Garcia%20(2016).pdf">
-								<i class="fa fa-file-pdf-o black-text" aria-hidden="true"></i>
-							</a>
-							<a class="blue-text text-lighten-2" href="resources/Heenac-Poster-Erick-Garcia.pdf">
-								<i class="fa fa-file-powerpoint-o black-text" aria-hidden="true"></i>
-							</a>
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!--Footer-->
-<footer class="page-footer scrollspy blue-grey darken-4" id="footer">
-	<div class="container">
-		<div class="row">
-			<div class="col l6 s12">
-				<div class="row">
-					<ul>
-						<li>
-							<h5 class="white-text">me@erick-garcia.com</h5>
-						</li>
-						<li>
-							<i class="fa fa-phone" aria-hidden="true"></i> +52 (656) 3756477
-						</li>
-						<li>
-							<a href="https://garciaerick.github.io/online-cv/">Resume</a>
-						</li>
-					</ul>
-					<ul>
-						<li>
-							<a href="#hobbies"><i class="fa fa-caret-up" aria-hidden="true"></i> Top</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="col l3 s12">
-				<!--<ul>-->
-				<!--<li><a class="white-text" href="http://www.joashpereira.com/">Home</a></li>-->
-				<!--<li><a class="white-text" href="http://www.joashpereira.com/blog">Blog</a></li>-->
-				<!--</ul>-->
-			</div>
-			<div class="col l3 s12">
-				<h5 class="white-text">Find me on</h5>
-				<ul>
-					<li>
-						<a class="white-text" href="https://github.com/garciaErick">
-							<i class="fa fa-github-square fa-2x white-text"></i> Github
-						</a>
-					</li>
-					<li>
-						<a class="white-text" href="https://www.linkedin.com/in/garciaErickCs">
-							<i class="small fa fa-linkedin-square white-text"></i> Linkedin
-						</a>
-					</li>
-					<li>
-						<a class="white-text" href="https://steamcommunity.com/id/blaksephirot/">
-							<i class="fa fa-steam-square fa-2x" aria-hidden="true"></i> Steam
-						</a>
-					</li>
-					<li>
-						<a class="white-text" href="https://www.youtube.com/user/blaksephirot">
-							<i class="small fa fa-youtube-square white-text"></i> Youtube
-						</a>
-					</li>
-					<li>
-						<a class="white-text" href="https://www.facebook.com/erickcubanoide">
-							<i class="small fa fa-facebook-square white-text"></i> Facebook
-						</a>
-					</li>
-					<li>
-						<a class="white-text" href="https://www.instagram.com/blaksephirot">
-							<i class="small fa fa-instagram white-text"></i> Instagram
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<div class="footer-copyright blue-grey darken-4">
-		<div class="container">
-			<p class="pull-right">
-				I am not a friend of justice. I am an enemy of evil.
-			</p>
-			<p class="pull-left">
-				<a href="https://youtu.be/zzhsu68ZfkA">
-					元気いいな？何かいいことでもあったのかい？
-				</a>
-			</p>
-		</div>
-	</div>
+<footer class="blue-grey darken-4">
+    <div class="container ">
+        <!--FOOTER DETAILS-->
+        <p class="pull-right">
+            I am not a friend of justice. I am an enemy of evil.
+        </p>
+        <p class="pull-left">
+            <a href="https://youtu.be/zzhsu68ZfkA" class="white-text">
+                元気いいな？何かいいことでもあったのかい？
+            </a>
+        </p>
+    </div>
 </footer>
 
+<!--==========================================
+                  SCRIPTS
+===========================================-->
+<script src="javascript/vendors/jquery-2.1.3.min.js"></script>
+<script src="javascript/vendors/bootstrap.min.js"></script>
+<script src="javascript/vendors/materialize.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR API KEY"></script>
+<script src="javascript/vendors/markerwithlabel.min.js"></script>
+<script src="javascript/vendors/retina.min.js"></script>
+<script src="javascript/vendors/scrollreveal.min.js"></script>
+<script src="javascript/vendors/swiper.jquery.min.js"></script>
+<script src="javascript/vendors/jquery.magnific-popup.min.js"></script>
+<script src="javascript/custom.js"></script>
 
-<!--  Scripts-->
-<script src="min/plugin-min.js"></script>
-<script src="min/custom-min.js"></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114039103-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', 'UA-114039103-1');
-</script>
 </body>
 </html>

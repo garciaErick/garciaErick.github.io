@@ -137,6 +137,7 @@ VERSION :	2.0
 /*-------------------------------------------------------------------------------
 #BODY & HTML
 -------------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 html, body {
   margin: 0;
   padding: 0;
@@ -201,10 +202,6 @@ html, body {
 -------------------------------------------------------------------------------*/
 h1, h2, h3, h4, h5, h6, span {
   font-family: 'Raleway', sans-serif; }
-
-.roboto {
-  font-family: "Segoe UI";
-}
 
 h4 {
   font-size: 2.18rem;
@@ -1065,7 +1062,7 @@ body.scale-effect {
     /*vertical line for education in in min width 768 */
     left: 50%;
     margin-left: -2px;
-    height: 77.1%;
+    height: 60%;
     opacity: 0.4;
     background: #263238  ; }
 
@@ -1073,7 +1070,7 @@ body.scale-effect {
     /*vertical line for experience in min width 768 */
     left: 50%;
     margin-left: -2px;
-    height: 69.1%;
+    height: 80%;
     opacity: 0.4;
     background: #263238  ; }
 
@@ -1685,7 +1682,7 @@ POPUP ANIMATIONS
     #interest .card .box .interest-icon {
       /*interest icon*/
       display: block;
-      color: #fff;
+      color: hsla(0,0%,100%,.6);
       background: #263238  ;
       height: 105px; }
       #interest .card .box .interest-icon i {
