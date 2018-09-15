@@ -1,0 +1,44 @@
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/advanced-japanese-a/css/htmlize.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/advanced-japanese-a/css/readtheorg.css"/>
+#+HTML_HEAD: <script src="/advanced-japanese-a/js/jquery.min.js"></script>
+#+HTML_HEAD: <script src="/advanced-japanese-a/js/bootstrap.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="/advanced-japanese-a/js/readtheorg.js"></script>
+
+#+TITLE: 日本語 - 1週目
+#+AUTHOR: Erick Garcia
+#+EMAIL: me@erick-garcia.com
+
+* Kanji Practice
+Hicimos kanji practice un poco en [[https://realkanji.com/study/][Real kanji]]
+
+** Kanji examples
+
+| kanji      | lectura    | significado    |
+|------------+------------+----------------|
+| が癖       |            |                |
+| 交番       |            |                |
+| 可愛い     | がくせい   | estudiante     |
+| 人間       | にんげん   | humano         |
+| 切符       | きっぷ     | ticket         |
+| 締める     | しめる     | apretar        |
+| 真っ直ぐ   | まっすぐ   | seguir derecho |
+| 要る       | いる       |                |
+| 洗濯       | せんたく   | lavar          |
+| 乗る       | のる       | subirse a      |
+| 質問       | しつもん   | pregunta       |
+| お祖父さん | おじいさん |                |
+| 困る       | こまる     |                |
+
+* Presentacion
+なつやすみについて
+
+** Outline
+さてと、何を休みにしましたか？
+*** 仕事
+昨日で僕のしごとの友達がピッザを食べにいった、でもさ
+彼らは僕に言うを忘れったから少し寂し :^(
+
+*** お祖父さん
+それで、僕の叔父さんはフアレズに来た。彼は僕のすべて
+の家族の一番叔父さん。僕たちはお腹
