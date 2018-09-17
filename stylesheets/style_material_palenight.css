@@ -139,15 +139,15 @@ VERSION :	2.0
 -------------------------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 html, body {
-  margin: 0;
-  padding: 0;
-  outline: 0;
-  display: block;
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
-  background-color: #23232D;
-  color: white;
-  -webkit-font-smoothing: subpixel-antialiased;
+				margin: 0;
+				padding: 0;
+				outline: 0;
+				display: block;
+				font-family: 'Roboto', sans-serif;
+				font-size: 15px;
+				background-color: #23232D;
+				color: white;
+				-webkit-font-smoothing: subpixel-antialiased;
   -webkit-text-stroke: 1px transparent;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -1666,8 +1666,8 @@ POPUP ANIMATIONS
   /*interest card class*/
   padding: 0; }
   #interest .card .card-content {
-    background-color: #7f7f7f;
-    /*interest cards content*/
+						background-color: #7f7f7f;
+						/*interest cards content*/
     border-bottom: 1px solid rgba(160, 160, 160, 0.2); }
   #interest .card .row.no-gutters {
     /*row gutter remove*/
