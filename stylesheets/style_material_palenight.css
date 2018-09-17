@@ -1683,8 +1683,8 @@ POPUP ANIMATIONS
       /*interest icon*/
       display: block;
       color: hsla(0,0%,100%,.6);
-      background: #7f7f7f  ;
-      height: 105px; }
+      background: #23232D;
+						height: 105px; }
       #interest .card .box .interest-icon i {
         /*icon*/
         font-size: 2.2em;
