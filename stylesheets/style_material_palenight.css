@@ -445,8 +445,8 @@ body.scale-effect {
 -------------------------------------------------------------------------------*/
 #loading {
   /*pre-loader*/
-  background-color: #2c2c36  ;
-  height: 100%;
+				background-color: #2c2c36  ;
+				height: 100%;
   width: 100%;
   position: fixed;
   z-index: 5001;
@@ -579,7 +579,7 @@ body.scale-effect {
   z-index: 10;
   text-align: left;
   background: #2c2c36  ; }
-  #home .menu a {
+#home .menu a {
     /*menu links*/
     margin-left: 30px;
     margin-right: 30px;
@@ -614,7 +614,7 @@ body.scale-effect {
     height: 200px;
     margin-top: -14px;
     background: #2c2c36  ; }
-    #home .menu .logo-flat img {
+  #home .menu .logo-flat img {
       /*logo image*/
       width: 100%;
       padding: 30px 44px 44px 44px; }
@@ -940,11 +940,11 @@ body.scale-effect {
     height: 99.5%;
     width: 4px;
     opacity: 0.3;
-    background: #2c2c36  ; }
+    background: #7f7f7f  ; }
 
-#timeline-experience {
-  /*experience section*/
-  position: relative; }
+		#timeline-experience {
+						/*experience section*/
+						position: relative; }
   #timeline-experience::before {
     /*straight line*/
     content: '';
@@ -955,28 +955,28 @@ body.scale-effect {
     height: 99.5%;
     width: 4px;
     opacity: 0.3;
-    background: #2c2c36  ; }
+    background: #7f7f7f7 ; }
 
-.timeline-block {
-  /*timeline block*/
-  position: relative; }
-  .timeline-block::after {
-    /*timeline block after*/
-    clear: both;
-    content: "";
-    display: table; }
-  .timeline-block:first-child {
-    margin-top: 0; }
-  .timeline-block:last-child {
-    margin-bottom: 0; }
-  .timeline-block .card-content {
-    background-color: #2c2c36;
-    /*content*/
-    padding: 20px; }
+		.timeline-block {
+						/*timeline block*/
+						position: relative; }
+		.timeline-block::after {
+						/*timeline block after*/
+						clear: both;
+						content: "";
+						display: table; }
+		.timeline-block:first-child {
+						margin-top: 0; }
+		.timeline-block:last-child {
+						margin-bottom: 0; }
+		.timeline-block .card-content {
+						background-color:  #7f7f7f7;
+						/*content*/
+						padding: 20px; }
     .timeline-block .card-content p {
       /*paragraph*/
       margin-top: 13px;
-      text-align: left; 
+      text-align: left;
       color: hsla(0,0%,100%,.6);
     }
     .timeline-block .card-content .modal-dot {
@@ -1010,7 +1010,7 @@ body.scale-effect {
       font-size: 30px;
       font-weight: bold;
       margin-top: 8px;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29); 
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29);
       color: white;
     }
   .timeline-block .timeline-content {
@@ -1031,7 +1031,7 @@ body.scale-effect {
       left: 100%;
       z-index: -2;
       opacity: 0.4;
-      background: #2c2c36  ; }
+      background: #7f7f7f  ; }
     .timeline-block .timeline-content::after {
       /*horizontal line*/
       clear: both;
@@ -1040,7 +1040,7 @@ body.scale-effect {
     .timeline-block .timeline-content .timeline-title {
       /*timeline blocks title*/
       max-width: 84%;
-      font-weight: normal; 
+      font-weight: normal;
       color: white;
     }
     .timeline-block .timeline-content .timeline-info {
@@ -1064,7 +1064,7 @@ body.scale-effect {
     margin-left: -2px;
     height: 60%;
     opacity: 0.4;
-    background: #2c2c36  ; }
+    background: #7f7f7f  ; }
 
   #timeline-experience::before {
     /*vertical line for experience in min width 768 */
@@ -1072,7 +1072,7 @@ body.scale-effect {
     margin-left: -2px;
     height: 80%;
     opacity: 0.4;
-    background: #2c2c36  ; }
+    background: #7f7f7f  ; }
 
   .timeline-block {
     /*timeline block in min width 768*/
@@ -1109,7 +1109,7 @@ body.scale-effect {
 -------------------------------------------------------------------------------*/
 /*skills section*/
 #skills .card {
-  background: #2c2c36  ;
+  background: #7f7f7f  ;
   /*skills title*/ }
   #skills .card .skills-title {
     /*skills title*/
@@ -1202,7 +1202,7 @@ body.scale-effect {
       opacity: 1;
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0);
-      
+
      }
     @media screen and (max-width: 747px) {
       #portfolios #portfolios-card .tab-content .big {
@@ -1666,7 +1666,7 @@ POPUP ANIMATIONS
   /*interest card class*/
   padding: 0; }
   #interest .card .card-content {
-    background-color: #2c2c36;
+    background-color: #7f7f7f;
     /*interest cards content*/
     border-bottom: 1px solid rgba(160, 160, 160, 0.2); }
   #interest .card .row.no-gutters {
@@ -1683,7 +1683,7 @@ POPUP ANIMATIONS
       /*interest icon*/
       display: block;
       color: hsla(0,0%,100%,.6);
-      background: #2c2c36  ;
+      background: #7f7f7f  ;
       height: 105px; }
       #interest .card .box .interest-icon i {
         /*icon*/
@@ -1715,7 +1715,7 @@ POPUP ANIMATIONS
 -------------------------------------------------------------------------------*/
 /*testimonials section*/
 #testimonials #testimonials-card {
-  background: #2c2c36  ; }
+  background: #7f7f7f  ; }
   #testimonials #testimonials-card .swiper-pagination .swiper-pagination-bullet {
     width: 12px;
     height: 12px;
@@ -1814,7 +1814,7 @@ POPUP ANIMATIONS
   #pricing-table .card .pricing-top {
     /*pricing details*/
     width: 100%;
-    background: #2c2c36  ;
+    background: #7f7f7f  ;
     color: #fff;
     padding: 30px 0 40px 0;
     text-align: center; }
@@ -1844,7 +1844,7 @@ POPUP ANIMATIONS
       line-height: 1.7; }
   #pricing-table .card .btn {
     /*purchase button*/
-    background: #2c2c36  ;
+    background: #7f7f7f  ;
     margin-bottom: 5px;
     color: #fff;
     border-radius: 2px; }
@@ -1986,7 +1986,7 @@ POPUP ANIMATIONS
       top: 0.5rem; }
   #contact .card .card-content .btn {
     /*send button*/
-    background-color: #2c2c36  ;
+    background-color: #7f7f7f  ;
     width: 115px;
     color: #fff;
     border-radius: 2px;
@@ -2089,7 +2089,7 @@ footer {
   height: auto;
   color: #fff;
   padding-top: 20px;
-  padding-bottom: 20px; 
+  padding-bottom: 20px;
 }
 
 /*-------------------------------------------------------------------------------
@@ -2134,7 +2134,7 @@ footer {
     position: relative;
     color: #fff; }
     .single-page .section-title i {
-      color: #2c2c36  ;
+      color: #7f7f7f  ;
       padding: 12px; }
     .single-page .section-title img {
       width: 66px;
@@ -2168,7 +2168,7 @@ footer {
     .single-page .post header {
       /*headings*/
       padding: 20px;
-      background: #2c2c36  ;
+      background: #7f7f7f  ;
       color: #fff; }
       .single-page .post header h3 {
         margin: 0 0 15px;
@@ -2200,7 +2200,7 @@ footer {
   .single-page .widget-holder {
     /*side widget stuffs*/ }
     .single-page .widget-holder h4 {
-      background: #2c2c36  ;
+      background: #7f7f7f  ;
       color: #fff;
       font-size: 24px;
       padding: 15px; }
