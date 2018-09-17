@@ -604,7 +604,7 @@ body.scale-effect {
     position: absolute;
     top: 0;
     left: 0;
-    background: #2c2c36;
+    background: #23232D;
     width: 225px;
     height: 100%;
     overflow-y: auto;
@@ -1016,7 +1016,7 @@ body.scale-effect {
   .timeline-block .timeline-content {
     /*each timeline content*/
     position: relative;
-    background: #fff;
+    background: #2c2c36;
     margin-right: 0;
     z-index: 1;
     margin-bottom: 5px;
@@ -1109,8 +1109,8 @@ body.scale-effect {
 -------------------------------------------------------------------------------*/
 /*skills section*/
 #skills .card {
-  background: #7f7f7f  ;
-  /*skills title*/ }
+				background: #2c2c36;
+/*skills title*/ }
   #skills .card .skills-title {
     /*skills title*/
     margin: 15px 0; }
@@ -2090,6 +2090,7 @@ footer {
   color: #fff;
   padding-top: 20px;
   padding-bottom: 20px;
+		background: #2c2c36;
 }
 
 /*-------------------------------------------------------------------------------
