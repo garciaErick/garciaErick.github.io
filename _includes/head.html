@@ -45,11 +45,11 @@
 
 	<!-- CUSTOM STYLE -->
 	<link href="stylesheets/style_material_palenight.css " id="switch_style" rel="stylesheet">
-{%- if jekyll.environment == 'production' and site.google_analytics -%}
-    {%- include google-analytics.html -%}
-  {%- endif -%}
-  {% if site.tags != "" %}
-    {% include collecttags.html %}
-  {% endif %}
+	{%- if jekyll.environment == 'production' and site.google_analytics -%}
+	{%- include google-analytics.html -%}
+	{%- endif -%}
+	{% if site.tags != "" %}
+	{% include collecttags.html %}
+	{% endif %}
 
 </head>
